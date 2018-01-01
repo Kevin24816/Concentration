@@ -10,10 +10,10 @@ import Foundation
 
 struct Card
 {
-    var isFaceUp = false;
-    var isMatched = false;
-    var face: String;
-    var id: Int;
+    var isFaceUp = false
+    var isMatched = false
+    var face: String
+    var id: Int
     
     init(face: String) {
         self.id = Card.getUniqueID()
